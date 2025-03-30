@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praveen Karnidi | Portfolio</title>
+    <meta
+      name="description"
+      content="Computer Science Student | Aspiring Developer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-theme="dark">
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <nav>
+          <a href="#" class="logo">Praveen Karnidi</a>
+          <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+            <button class="theme-toggle" id="theme-toggle">🌓</button>
+            <a href="resume.pdf" class="btn">Resume</a>
+          </div>
+          <button class="menu" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="content" id="home">
+        <div class="hero-img">
+          <img src="images/pic.jpg" alt="Praveen Karnidi" />
+        </div>
+        <div class="hero-text">
+          <h1>Praveen Karnidi</h1>
+          <span id="dynamic-text"></span>
+          <p>
+            Final-year B.Tech CSE student at BVCITS, driven by a passion for
+            problem-solving and innovation.
+          </p>
+          <div class="cta-buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="resume.pdf" class="btn">Download Resume</a>
+          </div>
+          <!-- Contact Icons Below Profile Picture -->
+          <div class="profile-contact-icons">
+            <a
+              href="https://www.linkedin.com/in/veera-venkata-durga-praveen-kumar-karnidi-006734347/"
+              aria-label="LinkedIn"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/karnidipraveen2005"
+              aria-label="GitHub"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://x.com/kpraveen2005"
+              aria-label="Twitter"
+              target="_blank"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/praveen97213/"
+              aria-label="Instagram"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100028895557976"
+              aria-label="Facebook"
+              target="_blank"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section">
+        <div class="section-content">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-grid">
+            <div class="about-text">
+              <div class="about-description">
+                <p>
+                  I am a Computer Science student with a strong passion for
+                  programming languages and web development. Currently pursuing
+                  my B.Tech in Computer Science and Engineering at BVCITS
+                  Batlapalem, I am dedicated to enhancing my skills in software
+                  development, artificial intelligence, and modern web
+                  technologies.
+                </p>
+                <p>
+                  With a solid foundation in computer engineering from my
+                  diploma studies, I have developed expertise in designing
+                  efficient algorithms, building scalable applications, and
+                  exploring advanced computing concepts. I am eager to apply my
+                  knowledge to real-world projects, contribute to innovative
+                  solutions, and continuously expand my technical proficiency.
+                </p>
+              </div>
+
+              <div class="education">
+                <h3 class="education-title">Education</h3>
+
+                <div class="education-item">
+                  <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                  </div>
+                  <div class="education-details">
+                    <h4>B.Tech in Computer Science and Engineering</h4>
+                    <p class="institute">BVCITS, Batlapalem (2023 - 2026)</p>
+                    <p class="grade">Current CGPA: 8.6</p>
+                  </div>
+                </div>
+
+                <div class="education-item">
+                  <div class="education-icon">
+                    <i class="fas fa-certificate"></i>
+                  </div>
+                  <div class="education-details">
+                    <h4>Diploma in Computer Engineering</h4>
+                    <p class="institute">BVCITS, Batlapalem (2020 - 2023)</p>
+                    <p class="grade">Percentage: 94.25%</p>
+                  </div>
+                </div>
+
+                <div class="education-item">
+                  <div class="education-icon">
+                    <i class="fas fa-school"></i>
+                  </div>
+                  <div class="education-details">
+                    <h4>Secondary Education (10th Grade)</h4>
+                    <p class="institute">
+                      Z.P.P. High School, I. Polavaram (2020)
+                    </p>
+                    <p class="grade">Percentage: 95%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about-image-container">
+              <div class="about-image">
+                <img
+                  src="images/photo.png"
+                  alt="Praveen Karnidi"
+                  class="profile-about-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Skills Section -->
+      <section id="skills" class="section">
+        <div class="section-content">
+          <h2 class="section-title">My Skills</h2>
+          <div class="skills-container">
+            <!-- Programming Languages -->
+            <div class="skill-category">
+              <h3>Programming Languages</h3>
+              <div class="skill-items">
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Java</div>
+                <div class="skill-item">C</div>
+                <div class="skill-item">C++</div>
+              </div>
+            </div>
+
+            <!-- Web Development -->
+            <div class="skill-category">
+              <h3>Web Development</h3>
+              <div class="skill-items">
+                <div class="skill-item">HTML5</div>
+                <div class="skill-item">CSS3</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">React.js</div>
+              </div>
+            </div>
+
+            <!-- Backend & Databases -->
+            <div class="skill-category">
+              <h3>Backend & Databases</h3>
+              <div class="skill-items">
+                <div class="skill-item">Node.js</div>
+                <div class="skill-item">Flask</div>
+                <div class="skill-item">MySQL</div>
+                <div class="skill-item">MongoDB</div>
+              </div>
+            </div>
+
+            <!-- Tools & Other -->
+            <div class="skill-category">
+              <h3>Tools & Other</h3>
+              <div class="skill-items">
+                <div class="skill-item">Git/GitHub</div>
+                <div class="skill-item">Data Structures</div>
+                <div class="skill-item">Algorithms</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <div class="section-content">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="projects-grid">
+            <!-- Snake Game -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/snake.png" alt="Snake Game with AI Mode" />
+              </div>
+              <div class="project-content">
+                <h3>Snake Game with AI Mode</h3>
+                <div class="project-tags">
+                  <span>Python</span>
+                  <span>Pygame</span>
+                  <span>PyTorch</span>
+                  <span>NumPy</span>
+                </div>
+                <p class="project-description">
+                  A classic snake game with an AI mode using Deep Q-Learning to
+                  enhance gameplay. Features multiple difficulty levels and an
+                  AI that improves over time.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/karnidipraveen2005/snakeGame.git"
+                    class="btn"
+                    target="_blank"
+                    >View on GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- QuickBite Restaurant -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/quickbite.png" alt="QuickBite Restaurant" />
+              </div>
+              <div class="project-content">
+                <h3>QuickBite Restaurant</h3>
+                <div class="project-tags">
+                  <span>Flask</span>
+                  <span>MongoDB</span>
+                  <span>JavaScript</span>
+                </div>
+                <p class="project-description">
+                  A web-based restaurant ordering system where users can browse
+                  menus, place orders, manage profiles, and track order history.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/karnidipraveen2005/QuickBite_Restaurant.git"
+                    class="btn"
+                    target="_blank"
+                    >View on GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Online Banking System -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/bank.jpg" alt="Online Banking System" />
+              </div>
+              <div class="project-content">
+                <h3>Online Banking System</h3>
+                <div class="project-tags">
+                  <span>JSP</span>
+                  <span>PHP</span>
+                  <span>MySQL</span>
+                </div>
+                <p class="project-description">
+                  A secure, web-based banking application that enables users to
+                  manage accounts, transfer funds, and track transactions.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/karnidipraveen2005/Online_Banking_System.git"
+                    class="btn"
+                    target="_blank"
+                    >View on GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Portfolio Website -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/port.png" alt="Personal Portfolio Website" />
+              </div>
+              <div class="project-content">
+                <h3>Personal Portfolio Website</h3>
+                <div class="project-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+                <p class="project-description">
+                  A responsive portfolio website showcasing skills, projects,
+                  and achievements with a modern and interactive UI.
+                </p>
+                <div class="project-links"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section id="certificates" class="section">
+        <div class="section-content">
+          <h2 class="section-title">Certifications & Internships</h2>
+
+          <!-- Internships -->
+          <div class="category">
+            <h3 class="category-title">
+              <i class="fas fa-briefcase"></i> Internships
+            </h3>
+            <div class="certificates-list">
+              <!-- Google AI/ML -->
+              <div class="certificate-item">
+                <div class="certificate-header">
+                  <h4>Google AI/ML Short-Term Internship</h4>
+                  <span class="certificate-badge virtual">Virtual</span>
+                </div>
+                <div class="certificate-meta">
+                  <span><i class="fas fa-building"></i> EduSkills</span>
+                  <span><i class="fas fa-calendar-alt"></i> Feb 26, 2025</span>
+                  <span><i class="fas fa-clock"></i> 120 hours</span>
+                </div>
+                <div class="certificate-actions">
+                  <a
+                    href="https://drive.google.com/file/d/13ik7_4-3BStrk_XbOqI8J5bdO9RHsWJn/view"
+                    target="_blank"
+                    class="btn-view"
+                  >
+                    <i class="fas fa-eye"></i> View
+                  </a>
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=13ik7_4-3BStrk_XbOqI8J5bdO9RHsWJn"
+                    class="btn-download"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+
+              <!-- Full-Stack -->
+              <div class="certificate-item">
+                <div class="certificate-header">
+                  <h4>Full-Stack Web Development Internship</h4>
+                </div>
+                <div class="certificate-meta">
+                  <span><i class="fas fa-building"></i> EduSkills</span>
+                  <span><i class="fas fa-calendar-alt"></i> Mar 3, 2025</span>
+                </div>
+                <div class="certificate-actions">
+                  <a
+                    href="https://drive.google.com/file/d/1srDYenO9YeVSH6uud7-tq0snLUMdQKkq/view"
+                    target="_blank"
+                    class="btn-view"
+                  >
+                    <i class="fas fa-eye"></i> View
+                  </a>
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=1srDYenO9YeVSH6uud7-tq0snLUMdQKkq"
+                    class="btn-download"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+
+              <!-- Frontend -->
+              <div class="certificate-item">
+                <div class="certificate-header">
+                  <h4>Frontend Development Internship</h4>
+                </div>
+                <div class="certificate-meta">
+                  <span><i class="fas fa-building"></i> TalentShine</span>
+                  <span><i class="fas fa-calendar-alt"></i> Aug 14, 2024</span>
+                  <span><i class="fas fa-clock"></i> 120 hours</span>
+                </div>
+                <div class="certificate-actions">
+                  <a
+                    href="https://drive.google.com/file/d/1mY1-QqMf-3yZrv_HgwyN20VIpkY-trLY/view"
+                    target="_blank"
+                    class="btn-view"
+                  >
+                    <i class="fas fa-eye"></i> View
+                  </a>
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=1mY1-QqMf-3yZrv_HgwyN20VIpkY-trLY"
+                    class="btn-download"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DevOps -->
+          <div class="category">
+            <h3 class="category-title">
+              <i class="fas fa-cloud"></i> DevOps & Cloud Certifications
+              <small>(Infosys Springboard)</small>
+            </h3>
+            <div class="certificates-list compact">
+              <!-- DevOps Agile -->
+              <div class="certificate-item compact">
+                <div class="certificate-header">
+                  <h4>DevOps Agile</h4>
+                </div>
+                <div class="certificate-meta">
+                  <span><i class="fas fa-calendar-alt"></i> Aug 3, 2024</span>
+                </div>
+                <div class="certificate-actions">
+                  <a
+                    href="https://drive.google.com/file/d/130bRKRIeTYb1-Ow3yAXFJkqljURry2sU/view"
+                    target="_blank"
+                    class="btn-view"
+                  >
+                    <i class="fas fa-eye"></i> View
+                  </a>
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=130bRKRIeTYb1-Ow3yAXFJkqljURry2sU"
+                    class="btn-download"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+
+              <!-- DevOps XP -->
+              <div class="certificate-item compact">
+                <div class="certificate-header">
+                  <h4>DevOps Extreme Programming</h4>
+                </div>
+                <div class="certificate-meta">
+                  <span><i class="fas fa-calendar-alt"></i> Aug 9, 2024</span>
+                </div>
+                <div class="certificate-actions">
+                  <a
+                    href="https://drive.google.com/file/d/1cn-c7fmoh2UPbqq8jtcySxsuA42V9weK/view"
+                    target="_blank"
+                    class="btn-view"
+                  >
+                    <i class="fas fa-eye"></i> View
+                  </a>
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=1cn-c7fmoh2UPbqq8jtcySxsuA42V9weK"
+                    class="btn-download"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+
+              <!-- DevOps CI/CD -->
+              <div class="certificate-item compact">
+                <div class="certificate-header">
+                  <h4>DevOps CI/CD</h4>
+                </div>
+                <div class="certificate-meta">
+                  <span><i class="fas fa-calendar-alt"></i> Aug 15, 2024</span>
+                </div>
+                <div class="certificate-actions">
+                  <a
+                    href="https://drive.google.com/file/d/14-KFMeHZqUH9Z-i2rR6ZTu5qV-3UEKXa/view"
+                    target="_blank"
+                    class="btn-view"
+                  >
+                    <i class="fas fa-eye"></i> View
+                  </a>
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=14-KFMeHZqUH9Z-i2rR6ZTu5qV-3UEKXa"
+                    class="btn-download"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Programming -->
+          <div class="category">
+            <h3 class="category-title">
+              <i class="fas fa-code"></i> Programming & Web Development
+            </h3>
+            <div class="certificates-list">
+              <!-- Oracle Java -->
+              <div class="certificate-item">
+                <div class="certificate-header">
+                  <h4>Oracle Java Certifications</h4>
+                </div>
+                <div class="certificate-meta">
+                  <span><i class="fas fa-calendar-alt"></i> Dec 3, 2023</span>
+                </div>
+                <div class="certificate-subitems">
+                  <div class="subitem">
+                    <span>Java Foundations</span>
+                    <div class="subitem-actions">
+                      <a
+                        href="https://drive.google.com/file/d/1Ic4jo0_ZIvjmZAIZPNNi6iKyNr-po7QR/view"
+                        target="_blank"
+                      >
+                        <i class="fas fa-eye"></i>
+                      </a>
+                      <a
+                        href="https://drive.google.com/uc?export=download&id=1Ic4jo0_ZIvjmZAIZPNNi6iKyNr-po7QR"
+                      >
+                        <i class="fas fa-download"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="subitem">
+                    <span>Java Fundamentals</span>
+                    <div class="subitem-actions">
+                      <a
+                        href="https://drive.google.com/file/d/1vdx4-KGIPA2uFgONpctmJzbvyZYZVkOa/view"
+                        target="_blank"
+                      >
+                        <i class="fas fa-eye"></i>
+                      </a>
+                      <a
+                        href="https://drive.google.com/uc?export=download&id=1vdx4-KGIPA2uFgONpctmJzbvyZYZVkOa"
+                      >
+                        <i class="fas fa-download"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="subitem">
+                    <span>Java Programming</span>
+                    <div class="subitem-actions">
+                      <a
+                        href="https://drive.google.com/file/d/1CDX4rZyO6hYeJ98GFiu_ySYUFx95cZbY/view"
+                        target="_blank"
+                      >
+                        <i class="fas fa-eye"></i>
+                      </a>
+                      <a
+                        href="https://drive.google.com/uc?export=download&id=1CDX4rZyO6hYeJ98GFiu_ySYUFx95cZbY"
+                      >
+                        <i class="fas fa-download"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Harvard CS109x -->
+              <div class="certificate-item">
+                <div class="certificate-header">
+                  <h4>Harvard CS109x: Data Science with Python</h4>
+                </div>
+                <div class="certificate-meta">
+                  <span><i class="fas fa-building"></i> edX</span>
+                  <span><i class="fas fa-calendar-alt"></i> June 14, 2024</span>
+                </div>
+                <div class="certificate-actions">
+                  <a
+                    href="https://drive.google.com/file/d/1lQ1nqvCwfhN_DjfPsU0WsXY3FbjEAEJ7/view"
+                    target="_blank"
+                    class="btn-view"
+                  >
+                    <i class="fas fa-eye"></i> View
+                  </a>
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=1lQ1nqvCwfhN_DjfPsU0WsXY3FbjEAEJ7"
+                    class="btn-download"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+
+              <!-- SQL for Data Science -->
+              <div class="certificate-item">
+                <div class="certificate-header">
+                  <h4>SQL for Data Science (DB0201EN)</h4>
+                </div>
+                <div class="certificate-meta">
+                  <span><i class="fas fa-building"></i> edX</span>
+                  <span><i class="fas fa-calendar-alt"></i> June 1, 2024</span>
+                </div>
+                <div class="certificate-actions">
+                  <a
+                    href="https://drive.google.com/file/d/1EbDkTlNz_IpWfxeXMHkjDY0oR0kyyE5Q/view"
+                    target="_blank"
+                    class="btn-view"
+                  >
+                    <i class="fas fa-eye"></i> View
+                  </a>
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=1EbDkTlNz_IpWfxeXMHkjDY0oR0kyyE5Q"
+                    class="btn-download"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+
+              <!-- Cybersecurity -->
+              <div class="certificate-item">
+                <div class="certificate-header">
+                  <h4>Cybersecurity Basics (Cybfun 1.0)</h4>
+                </div>
+                <div class="certificate-meta">
+                  <span><i class="fas fa-building"></i> edX</span>
+                  <span><i class="fas fa-calendar-alt"></i> May 29, 2024</span>
+                </div>
+                <div class="certificate-actions">
+                  <a
+                    href="https://drive.google.com/file/d/1aEy5IZ_ip_QEvA5SYRsSSDsKL60hfxkd/view"
+                    target="_blank"
+                    class="btn-view"
+                  >
+                    <i class="fas fa-eye"></i> View
+                  </a>
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=1aEy5IZ_ip_QEvA5SYRsSSDsKL60hfxkd"
+                    class="btn-download"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Competitive Programming -->
+          <div class="category">
+            <h3 class="category-title">
+              <i class="fas fa-trophy"></i> Competitive Programming
+            </h3>
+            <div class="certificates-list">
+              <div class="certificate-item">
+                <div class="certificate-header">
+                  <h4>CodeWars Participation Certificate</h4>
+                </div>
+                <div class="certificate-meta">
+                  <span
+                    ><i class="fas fa-calendar-alt"></i> March 10, 2024</span
+                  >
+                </div>
+                <div class="certificate-actions">
+                  <a
+                    href="https://drive.google.com/file/d/1z-7qfwGXbXi72l16zICBOykwUE6XQP6q/view"
+                    target="_blank"
+                    class="btn-view"
+                  >
+                    <i class="fas fa-eye"></i> View
+                  </a>
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=1z-7qfwGXbXi72l16zICBOykwUE6XQP6q"
+                    class="btn-download"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+
+              <!-- New Prajwalan Hackathon Entry -->
+              <div class="certificate-item">
+                <div class="certificate-header">
+                  <h4>Prajwalan Hackathon Participation</h4>
+                </div>
+                <div class="certificate-meta">
+                  <span
+                    ><i class="fas fa-calendar-alt"></i> February 10, 2025</span
+                  >
+                </div>
+                <div class="certificate-actions">
+                  <a
+                    href="https://drive.google.com/file/d/1qhzG4xyGwV2yrEsLyAAtOZkEINbGszWW/view"
+                    target="_blank"
+                    class="btn-view"
+                  >
+                    <i class="fas fa-eye"></i> View
+                  </a>
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=1qhzG4xyGwV2yrEsLyAAtOZkEINbGszWW"
+                    class="btn-download"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- NPTEL/SWAYAM -->
+          <div class="category">
+            <h3 class="category-title">
+              <i class="fas fa-university"></i> NPTEL/SWAYAM Certifications
+            </h3>
+            <div class="certificates-list">
+              <div class="certificate-item">
+                <div class="certificate-header">
+                  <h4>The Joy of Computing using Python</h4>
+                </div>
+                <div class="certificate-meta">
+                  <span><i class="fas fa-calendar-alt"></i> Jan–Apr 2024</span>
+                </div>
+                <div class="certificate-actions">
+                  <a
+                    href="https://drive.google.com/file/d/1yELNdSGL1H6rb-bQ5tkMffIALvu0CHV0/view"
+                    target="_blank"
+                    class="btn-view"
+                  >
+                    <i class="fas fa-eye"></i> View
+                  </a>
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=1yELNdSGL1H6rb-bQ5tkMffIALvu0CHV0"
+                    class="btn-download"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+              <div class="certificate-item">
+                <div class="certificate-header">
+                  <h4>Introduction to Internet of Things</h4>
+                </div>
+                <div class="certificate-meta">
+                  <span><i class="fas fa-calendar-alt"></i> Jul–Oct 2024</span>
+                </div>
+                <div class="certificate-actions">
+                  <a
+                    href="https://drive.google.com/file/d/1-Jt2fYPxqncTW0dPvWC1yktccMCus7uY/view"
+                    target="_blank"
+                    class="btn-view"
+                  >
+                    <i class="fas fa-eye"></i> View
+                  </a>
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=1-Jt2fYPxqncTW0dPvWC1yktccMCus7uY"
+                    class="btn-download"
+                  >
+                    <i class="fas fa-download"></i> Download
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section -->
+      <section id="contact" class="section">
+        <div class="section-content">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="contact-container">
+            <form
+              class="contact-form"
+              action="https://formspree.io/f/mzzeakkp"
+              method="POST"
+              id="contactForm"
+            >
+              <input
+                type="hidden"
+                name="_subject"
+                value="New message from your portfolio"
+              />
+              <input type="text" name="_gotcha" style="display: none" />
+
+              <div class="form-group">
+                <input type="text" id="name" name="name" required />
+                <label for="name">Your Name</label>
+              </div>
+
+              <div class="form-group">
+                <input type="email" id="email" name="email" required />
+                <label for="email">Your Email</label>
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+                <label for="message">Your Message</label>
+              </div>
+
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+              <h3>Direct Contact</h3>
+              <div class="contact-method">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <span>Email</span>
+                  <a href="mailto:praveenkumar97213@gmail.com"
+                    >praveenkumar97213@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="contact-method">
+                <i class="fas fa-phone-alt"></i>
+                <div>
+                  <span>Phone</span>
+                  <a href="tel:+919014277766">+91 9014277766</a>
+                </div>
+              </div>
+              <div class="contact-social">
+                <a
+                  href="https://www.linkedin.com/in/veera-venkata-durga-praveen-kumar-karnidi-006734347/"
+                  target="_blank"
+                  aria-label="LinkedIn"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://github.com/karnidipraveen2005"
+                  target="_blank"
+                  aria-label="GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://x.com/kpraveen2005"
+                  target="_blank"
+                  aria-label="Twitter"
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/praveen97213/"
+                  target="_blank"
+                  aria-label="Instagram"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                  href="https://bit.ly/karnidipraveen2005"
+                  target="_blank"
+                  aria-label="Facebook"
+                >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
