@@ -350,6 +350,7 @@ header nav .nav-links a:hover {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
+  text-align: left; /* Keeps the gradient title left-aligned */
 }
 
 .about-grid {
@@ -369,8 +370,9 @@ header nav .nav-links a:hover {
   line-height: 1.8;
   font-size: 1.1rem;
   color: var(--text-color);
+  text-align: justify; /* Added justified alignment */
+  text-justify: inter-word; /* Improves spacing between words */
 }
-
 /* Education Section */
 .education {
   display: flex;
